@@ -58,12 +58,6 @@ class Umi2Header(object):
         self.gzip_suproccess(filename2)
 
 
-
-def testmain():
-     u2h = Umi2Header
-     u2h.fix_barcode('~/TestingArea/')
-
-
 def main():
    fire.Fire(Umi2Header)
 
