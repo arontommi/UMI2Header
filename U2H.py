@@ -49,9 +49,9 @@ class Umi2Header(object):
                               r1[2],
                               r1[3]])
             file2.writelines([r2[0].rstrip() + b"_" + r3[1],
-                              r1[1],
-                              r1[2],
-                              r1[3]])
+                              r2[1],
+                              r2[2],
+                              r2[3]])
         file1.close()
         file2.close()
         self.gzip_suproccess(filename1)
